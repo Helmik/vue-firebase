@@ -15,9 +15,8 @@ export default {
     return {}
   },
   methods: {
-    login: () => {
-      console.log('Click...', this)
-      this.$router.replace('hello')
+    login: function () {
+      this.$router.push('hello')
     }
   }
 }
